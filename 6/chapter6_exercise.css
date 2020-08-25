@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container * {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container .spring {
+  background-image: url("img/box1.jpg");
+}
+
+.container .summer {
+  background-image: url("img/box2.jpg");
+}
+
+.container .fall {
+  background-image: url("img/box3.jpg");
+}
+
+.container .winter {
+  background-image: url("img/box4.jpg");
+}
