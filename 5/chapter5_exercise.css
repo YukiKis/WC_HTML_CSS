@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+header .heading {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav .nav-list {
+  margin: 0 auto;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 15px 0;
+}
+
+nav .nav-list .nav-list-item {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+main {
+  margin: 50px auto;
+  width: 800px;
+}
+
+main .green {
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+main .green .g1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+main .green .g2 {
+  width: 200px;
+  height: 200px;
+
+  background-color: #cdffd3;
+}
+
+main .green .g3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+main .green .g4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+main .yellow {
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+main .yellow .y1 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+main .yellow .y2 {
+  width: 200px;
+  height: 200px;
+
+  background-color: #edffbe;
+}
+
+main .yellow .y3 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+main .yellow .y4 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+main .blue {
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+main .blue .b1 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+main .blue .b2 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+main .blue .b3 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+main .blue .b4 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: gray;
+}
+
+footer .footer-text {
+  color: #fff;
+  text-align: center;
+  line-height: 120px;
+}
