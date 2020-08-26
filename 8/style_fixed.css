@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header .heading {
+  font-size: 32px;
+}
+
+nav .nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+nav .nav-list .nav-list-item {
+  list-style: none;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+.main-visual {
+  width: 100%;
+  height: 300px;
+  background-image: url("images/mv.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual .main-visual-content {
+  width: 40%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 105px;
+}
+
+.main-visual .main-visual-content .main-visual-text {
+  color: #fff;
+}
+
+.main-visual .main-visual-content .main-visual-name {
+  color: #fff;
+  padding-top: 30px;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+main .blog {
+  width: 540px;
+  margin-right: 30px;
+}
+
+main .blog .blog-heading {
+  text-align: center;
+  border-bottom: 8px solid #f7f7f7;
+  line-height: 0.6;
+}
+
+main .blog .blog-box {
+  padding-top: 50px;
+}
+
+main .blog .blog-box .blog-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+main .blog .blog-box .blog-item .blog-image {
+  height: 180px;
+}
+
+main .blog .blog-box .blog-item .blog-text {
+  padding: 25px 0 0 30px;
+}
+
+main .blog .blog-box .blog-item .blog-text .blog-text-heading {
+  padding-bottom: 15px;
+}
+
+main .blog .blog-box .blog-item .blog-text .blog-date {
+  display: inline-block;
+  font-size: 12px;
+}
+
+main .blog .blog-box .blog-item .blog-text .category {
+  display: inline-block;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+  padding: 5px 8px;
+}
+
+main .blog .pagination {
+  text-align: center;
+  padding-top: 50px;
+}
+
+main .blog .pagination p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
+main .sidebar {
+  width: 230px;
+}
+
+.main .sidebar .common-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6px;
+}
+
+main .sidebar .sidebar-contents {
+  padding: 50px 0;
+}
+
+main .sidebar .sidebar-contents .popular-text,
+main .sidebar .sidebar-contents .categories-text {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 5px;
+}
+
+main .sidebar .sidebar-contents .popular-text:last-child,
+main .sidebar .sidebar-contents .categories-text:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+main .sidebar .instagram .sidebar-contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .sidebar .instagram .sidebar-contents .instagram-box:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.main .sidebar .instagram .sidebar-contents .instagram-box:nth-child(1) {
+  background-image: url("images/airport.jpg");
+}
+
+.main .sidebar .instagram .sidebar-contents .instagram-box:nth-child(2) {
+  background-image: url("images/japan2.jpg");
+}
+
+.main .sidebar .instagram .sidebar-contents .instagram-box:nth-child(3) {
+  background-image: url("images/snow.jpg");
+}
+
+.main .sidebar .instagram .sidebar-contents .instagram-box:nth-child(4) {
+  background-image: url("images/japan2.jpg");
+}
+
+.main .sidebar .instagram .sidebar-contents .instagram-box:nth-child(5) {
+  background-image: url("images/lake.jpg");
+}
+
+.main .sidebar .instagram .sidebar-contents .instagram-box:nth-child(6) {
+  background-image: url("images/road.jpg");
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #848282;
+  text-align: center;
+  line-height: 120px;
+}
+
+footer .footer-text {
+  color: #fff;
+}
